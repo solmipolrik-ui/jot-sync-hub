@@ -68,6 +68,21 @@ export default {
 				md: 'calc(var(--radius) - 2px)',
 				sm: 'calc(var(--radius) - 4px)'
 			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-card': 'var(--gradient-card)',
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'card': 'var(--shadow-card)',
+			},
+			backgroundColor: {
+				'note-bg': 'hsl(var(--note-bg))',
+				'note-hover': 'hsl(var(--note-hover))',
+			},
+			borderColor: {
+				'note-border': 'hsl(var(--note-border))',
+			},
 			keyframes: {
 				'accordion-down': {
 					from: {
